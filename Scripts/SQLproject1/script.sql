@@ -62,6 +62,6 @@ WHERE skill LIKE '%SQL%' AND days_since_posting > 21 AND domain IS NOT NULL
 GROUP BY domain
 ORDER BY COUNT(title)DESC;
 /*Answer: Internet and Software (62), Banks and Financial Services (61),
-Consulting and Business Services(57), Health Care(52).
+Consulting and Business Services(57), Health Care(52).*/
 
 
